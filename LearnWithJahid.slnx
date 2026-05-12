@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="dsa/dsa.csproj" />
+    <Project Path="oj/oj.csproj" Id="195e5994-6866-4ee8-9d31-79d71f489276" />
   </Folder>
 </Solution>
