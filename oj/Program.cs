@@ -10,3 +10,10 @@ int[][] tasks = [[2, 4], [2, 2], [1, 1], [4, 5], [3, 9], [3, 3]];   //15
 
 int r = new MinimumInitialEnergyToFinishTasks_1665().MinimumEffort(tasks);
 Console.WriteLine(r);
+
+
+/*
+ * 2784
+ */
+int[] nums = [2, 4, 4, 4];
+Console.WriteLine(new CheckIfArrayIsGood_2784().IsGood(nums));
