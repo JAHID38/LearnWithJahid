@@ -29,3 +29,8 @@ int start = 3;
 //int start = 2;
 Console.WriteLine(new JumpGameIII_1306().CanReach(arr, start));
 
+/*
+ * 3925
+ */
+int[] nums = [1, 2, 3];
+Console.WriteLine(new ConcatenateArrayWithReverse_3925().ConcatWithReverse(nums));
