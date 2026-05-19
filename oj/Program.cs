@@ -34,3 +34,9 @@ Console.WriteLine(new JumpGameIII_1306().CanReach(arr, start));
  */
 int[] nums = [1, 2, 3];
 Console.WriteLine(new ConcatenateArrayWithReverse_3925().ConcatWithReverse(nums));
+
+/*
+ * 2540
+ */
+int[] nums1 = [3, 8], nums2 = [1, 3, 4, 5, 8, 9];
+Console.WriteLine(new MinimumCommonValue_2540().GetCommon(nums1, nums2));
