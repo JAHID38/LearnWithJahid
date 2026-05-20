@@ -40,3 +40,15 @@ Console.WriteLine(new ConcatenateArrayWithReverse_3925().ConcatWithReverse(nums)
  */
 int[] nums1 = [3, 8], nums2 = [1, 3, 4, 5, 8, 9];
 Console.WriteLine(new MinimumCommonValue_2540().GetCommon(nums1, nums2));
+
+/*
+ * 2657
+ */
+Console.WriteLine("======== 2657 ========");
+int[] A = [2, 3, 1], B = [3, 1, 2];
+int[] ans = new FindthePrefixCommonArrayofTwoArrays_2657().FindThePrefixCommonArray(A, B);
+foreach(int i in ans)
+{
+    Console.WriteLine(i);
+}
+
