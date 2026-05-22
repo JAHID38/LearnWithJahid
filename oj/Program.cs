@@ -52,3 +52,12 @@ foreach(int i in ans)
     Console.WriteLine(i);
 }
 
+/*
+ * 33
+ */
+Console.WriteLine("======== 33 ========");
+//int[] nums33 = [4, 5, 6, 7, 0, 1, 2];
+//int target = 3;
+int[] nums33 = [5, 1, 3];
+int target = 5;
+Console.WriteLine(new SearchinRotatedSortedArray_33().Search(nums33, target));
