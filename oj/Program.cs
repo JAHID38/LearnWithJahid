@@ -61,3 +61,10 @@ Console.WriteLine("======== 33 ========");
 int[] nums33 = [5, 1, 3];
 int target = 5;
 Console.WriteLine(new SearchinRotatedSortedArray_33().Search(nums33, target));
+
+/*
+ * 3120
+ */
+Console.WriteLine("======== 3120 ========");
+string word = "zaaAbcBCZ";
+Console.WriteLine(new CounttheNumberofSpecialCharactersI_3120().NumberOfSpecialChars(word));
