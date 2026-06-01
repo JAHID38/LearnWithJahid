@@ -68,3 +68,10 @@ Console.WriteLine(new SearchinRotatedSortedArray_33().Search(nums33, target));
 Console.WriteLine("======== 3120 ========");
 string word = "zaaAbcBCZ";
 Console.WriteLine(new CounttheNumberofSpecialCharactersI_3120().NumberOfSpecialChars(word));
+
+/*
+ * 2144
+ */
+Console.WriteLine("======== 2144 ========");
+int[] cost = [1,2,3];
+Console.WriteLine(new MinimumCostofBuyingCandiesWithDiscount_2144().MinimumCost(cost));
