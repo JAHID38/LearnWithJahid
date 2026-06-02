@@ -75,3 +75,11 @@ Console.WriteLine(new CounttheNumberofSpecialCharactersI_3120().NumberOfSpecialC
 Console.WriteLine("======== 2144 ========");
 int[] cost = [1,2,3];
 Console.WriteLine(new MinimumCostofBuyingCandiesWithDiscount_2144().MinimumCost(cost));
+
+/*
+ * 3633
+ */
+Console.WriteLine("======== 3633 ========");
+//int[] landStartTime = [5], landDuration = [3], waterStartTime = [1], waterDuration = [10];
+int[] landStartTime = [99], landDuration = [59], waterStartTime = [99, 54], waterDuration = [85, 20];
+Console.WriteLine(new EarliestFinishTimeforLandandWaterRidesI_3633().EarliestFinishTime(landStartTime, landDuration, waterStartTime, waterDuration));
